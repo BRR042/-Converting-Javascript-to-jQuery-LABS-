@@ -1,8 +1,8 @@
- function alertHover() {
-    $("#area").css("background-color", "green");
+function alertHover(){
+    document.getElementById("area").style.backgroundColor = "green";
     alert("Close me to turn the box green.");
-}
-
-function reset() {
-    $("#area").css("background-color", "#953674");
-}
+  }
+  
+  function reset(){
+     document.getElementById("area").style.backgroundColor = "#953674"; 
+  }
